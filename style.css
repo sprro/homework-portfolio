@@ -1,4 +1,4 @@
-/* I googled a lot of code for this, but mainly to learn new things to do! */ 
+/* I googled some extra code for the CSS, but it was mainly because I wanted to see what I could do */ 
 
 body {
   background-color: #d1d1d1;
@@ -10,8 +10,7 @@ nav {
   word-spacing: 50px; 
 }
 
-h1 {
-  padding-top: 15px; 
+h1 { 
   font-size: 40px; 
   font-family: 'Patua One', cursive;
   text-align: center;
