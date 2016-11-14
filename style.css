@@ -1,0 +1,85 @@
+/* I googled a lot of code for this, but mainly to learn new things to do! */ 
+
+body {
+  background-color: #d1d1d1;
+}
+nav {
+  text-align: center; 
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none; 
+  word-spacing: 50px; 
+}
+
+h1 {
+  padding-top: 15px; 
+  font-size: 40px; 
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px; 
+  margin-right: 50px; 
+  margin-left: 50px; 
+  text-align: center;
+}
+
+/* some of the below is admittedely code I'm experimenting with. It's responsive, but has done odd things to my nagivation */
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* This is the part that confuses me */ 
+  background-color: #f5f5f5;
+  width: 70%;
+  height: 100%; /* kind of get this after playing with it */
+
+  padding-top: 60px;
+  padding-bottom: 60px; 
+  padding-left: 20px;
+  padding-right: 20px; 
+  color: #424242;
+  text-align: center; /* I understand this for the most part */
+}
+
+.container {
+      display:inline-block;
+      padding: 10px;  /* I understand this */
+    }
+
+/* end odd code stuff that I don't fully understand */
+
+.about {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 35px;
+}
+
+img.blur:hover {
+  -webkit-filter: blur(5px); 
+    filter: blur(2px); /* ok, this effect is pretty cool */ 
+}
+
+a {
+  color: #424242;
+  text-decoration: none; 
+}
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+footer {
+  text-align: center; 
+}
+
+.bottom {
+  text-align: center; /* For the responsive code: I created a seperate class of a footer for the portfolio page and enclosed it in it's own div */ 
+  background-color: #f5f5f5; 
+}
+
