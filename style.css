@@ -62,8 +62,8 @@ p {
 }
 
 img.blur:hover {
-  -webkit-filter: blur(2px); 
-    filter: blur(2px); /* ok, this effect is pretty cool */ 
+  -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* ok, this effect is pretty cool */ 
 }
 
 a {
